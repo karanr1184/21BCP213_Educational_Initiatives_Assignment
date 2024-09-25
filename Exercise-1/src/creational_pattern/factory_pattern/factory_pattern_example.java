@@ -27,7 +27,6 @@ abstract class Logistics {
     protected abstract Transport createTransport();
 }
 
-// Concrete Logistics classes
 class RoadLogistics extends Logistics {
     @Override
     protected Transport createTransport() {
