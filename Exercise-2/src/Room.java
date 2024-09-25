@@ -39,7 +39,7 @@ public class Room {
         if (isBooked) {
             this.isBooked = false;
             System.out.println(roomId + " booking has been canceled.");
-//            notifyObservers("Room is unoccupied. Lights and AC turned off.");
+            notifyObservers("Room is unoccupied. Lights and AC turned off.");
         } else {
             System.out.println(roomId + " is not booked.");
         }
