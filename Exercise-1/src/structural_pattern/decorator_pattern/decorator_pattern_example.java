@@ -65,7 +65,6 @@ class SugarDecorator extends CoffeeDecorator {
     }
 }
 
-// Usage
 public class decorator_pattern_example {
     public static void main(String[] args) {
         Coffee coffee = new SimpleCoffee();
